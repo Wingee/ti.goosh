@@ -155,7 +155,7 @@ remoteDeviceUUID | String | Get the device token previously obtained.
 *Due system limitations, currently the badge over the icon is supported only on Samsung and Sony devices. This is why there's no an "Android official method" to draw that badge, but only via private API.*
 
 ```js
-gcm.setAppBadge(2);
+TiGoosh.setAppBadge(2);
 ```
 
 ## Cancel received notification
